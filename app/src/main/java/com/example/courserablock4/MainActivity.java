@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         switchMaterial.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-
+                pianoMusic.setLooping(isChecked);
             }
         });
     }
