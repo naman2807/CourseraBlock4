@@ -24,5 +24,9 @@
         android:text="@string/pause"
         android:layout_gravity="center_horizontal"
         android:onClick="pauseMusic"/>
+    
+    <Switch
+        android:layout_width=""
+        android:layout_height=""
 
 </LinearLayout>
