@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:text="@string/play"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:onClick="playMusic"/>
 
 </LinearLayout>
