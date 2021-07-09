@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void pauseMusic(View v){
-
+        if(pianoMusic.isPlaying()){
+            pianoMusic.pause();
+        }
     }
 }
