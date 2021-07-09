@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void playMusic(View view){
-
+        pianoMusic.start();
     }
 
     public void pauseMusic(View v){
