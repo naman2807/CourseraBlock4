@@ -6,6 +6,8 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.android.material.switchmaterial.SwitchMaterial;
+
 public class MainActivity extends AppCompatActivity {
 
     MediaPlayer pianoMusic;
@@ -15,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         pianoMusic = MediaPlayer.create(this, R.raw.piano);
+        SwitchMaterial switchMaterial = findViewById(R.id.loop);
     }
 
     public void playMusic(View view){
