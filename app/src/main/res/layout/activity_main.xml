@@ -21,7 +21,8 @@
         android:id="@+id/pause"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pause"
+        android:text="@string/pause"
         android:layout_gravity="center_horizontal"
+        android:onClick="pauseMusic"/>
 
 </LinearLayout>
